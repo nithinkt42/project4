@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kerala</title>
+   <center> <h1>KERALA</h1></center><hr>
+</head>
+<body bgcolor="#7fec68"><center> <H2>WELCOME TO KERALA</H2></center>
+    <TABLE width="100%">
+        <TR>
+            <TH><a href="{% url 'clt' %}"> CALICUT</a></TH>
+            <TH><a href="{% url 'kochi' %}"> KOCHI</a></TH>
+            <TH><a href="{% url 'wayanad' %}">WAYANAD</a> </TH>
+            <TH><a href="{% url 'idk' %}"> IDUKKI</a></TH>
+            <TH><a href="{% url 'alappi' %}"> ALAPPUZHA</a> </TH>
+        </TR>
+    </TABLE><HR><br><br><br>
+        {% block content %}
+        <center><img src="{% static 'images/home.png' %}" width="600px"></center>
+        {% endblock %}
+        <br><br>
+    <Hr>
+       <CENTER> <h2>THANK YOU</h2></CENTER>
+</body>
+</html>
