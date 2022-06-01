@@ -9,3 +9,9 @@ urlpatterns = [
      path('kochi/',views.kochi,name='kochi'),
      path('wayanad/',views.wayanad, name='wayanad')
 ]
+
+
+
+
+
+# githob personal access token : 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
