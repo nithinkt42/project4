@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
      path('calicut/',views.calicut,name='clt'),
-     path('kt5/',views.html5),
+     path('kt5/',views.html5,name='kerala'),
      path('alappi/',views.alappuzha,name='alappi'),
      path('idukki/',views.idukki,name='idk'),
      path('kochi/',views.kochi,name='kochi'),
